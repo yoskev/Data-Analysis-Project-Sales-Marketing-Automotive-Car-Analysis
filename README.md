@@ -1,0 +1,2 @@
+# Data-Analysis-Project-Sales---Marketing-Automotive-Car-Analysis
+This 5 year data analysis project evaluates Sales Company performance (2021–2026), analyzing Rp 5.61T in cumulative revenue across 11,939 transactions. Key findings uncover structural growth deceleration, 9% revenue leakage rate &amp; contrasts between volume-heavy retail, high value fleet repeat buyers. The project delivers strategic recommendations.
