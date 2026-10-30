@@ -1,0 +1,33 @@
+dealer_id,dealer_name,dealer_type,city,province,region,address,phone,manager_name,opened_date,closed_date,is_active,monthly_sales_target_units,showroom_area_sqm
+D001,Nusantara Motor Jakarta Pusat - Kemayoran,Main Dealer,Jakarta Pusat,DKI Jakarta,Jabodetabek,"Jl. Kemayoran No. 93, Jakarta Pusat",0657194391,Agus Putra,2009-02-27,,1,17,764
+D002,Nusantara Motor Jakarta Selatan - Fatmawati,Main Dealer,Jakarta Selatan,DKI Jakarta,Jabodetabek,"Jl. Fatmawati No. 24, Jakarta Selatan",0277632394,Lestari Gunawan,2017-01-24,,1,27,983
+D003,Nusantara Motor Jakarta Selatan - TB Simatupang,Main Dealer,Jakarta Selatan,DKI Jakarta,Jabodetabek,"Jl. TB Simatupang No. 94, Jakarta Selatan",0555640568,Ayu Anggraini,2017-04-30,,1,23,787
+D004,Nusantara Motor Jakarta Barat - Puri Indah,Authorized Dealer,Jakarta Barat,DKI Jakarta,Jabodetabek,"Jl. Puri Indah No. 22, Jakarta Barat",0848907836,Melati Hartono,2012-10-26,,1,18,650
+D005,Nusantara Motor Jakarta Timur - Cawang,Authorized Dealer,Jakarta Timur,DKI Jakarta,Jabodetabek,"Jl. Cawang No. 53, Jakarta Timur",0516136193,Zainal Sulistyo,2015-02-03,,1,16,688
+D006,Nusantara Motor Jakarta Utara - Kelapa Gading,Authorized Dealer,Jakarta Utara,DKI Jakarta,Jabodetabek,"Jl. Kelapa Gading No. 103, Jakarta Utara",0776383798,Rahma Permana,2008-10-30,,1,18,591
+D007,Nusantara Motor Tangerang - Karawaci,Authorized Dealer,Tangerang,Banten,Jabodetabek,"Jl. Karawaci No. 43, Tangerang",0259853489,Eko Pratama,2017-02-08,,1,13,648
+D008,Nusantara Motor Tangerang Selatan - BSD City,Main Dealer,Tangerang Selatan,Banten,Jabodetabek,"Jl. BSD City No. 91, Tangerang Selatan",0346819529,Anita Tan,2018-02-13,,1,21,799
+D009,Nusantara Motor Bekasi - Summarecon,Authorized Dealer,Bekasi,Jawa Barat,Jabodetabek,"Jl. Summarecon No. 19, Bekasi",0718415244,Farhan Kusuma,2015-02-08,,1,19,736
+D010,Nusantara Motor Depok - Margonda,Authorized Dealer,Depok,Jawa Barat,Jabodetabek,"Jl. Margonda No. 49, Depok",0439527677,Reza Siregar,2020-07-30,,1,13,444
+D011,Nusantara Motor Bogor - Baranangsiang,Satellite Showroom,Bogor,Jawa Barat,Jabodetabek,"Jl. Baranangsiang No. 23, Bogor",0525649607,Rina Santoso,2018-05-06,,1,11,468
+D012,Nusantara Motor Bandung - Soekarno-Hatta,Main Dealer,Bandung,Jawa Barat,Jawa,"Jl. Soekarno-Hatta No. 68, Bandung",0669701529,Mega Putra,2010-12-13,,1,17,590
+D013,Nusantara Motor Bandung - Pasteur,Authorized Dealer,Bandung,Jawa Barat,Jawa,"Jl. Pasteur No. 84, Bandung",0276561832,Dewi Nugroho,2016-03-09,,1,15,633
+D014,Nusantara Motor Semarang - Pemuda,Main Dealer,Semarang,Jawa Tengah,Jawa,"Jl. Pemuda No. 101, Semarang",0479490437,Indah Dharma,2018-06-18,,1,13,484
+D015,Nusantara Motor Surakarta - Slamet Riyadi,Authorized Dealer,Surakarta,Jawa Tengah,Jawa,"Jl. Slamet Riyadi No. 17, Surakarta",0775999540,Dedi Siregar,2016-04-11,,1,11,301
+D016,Nusantara Motor Yogyakarta - Ring Road Utara,Authorized Dealer,Yogyakarta,DI Yogyakarta,Jawa,"Jl. Ring Road Utara No. 93, Yogyakarta",0667357835,Rahma Handayani,2018-03-26,,1,11,419
+D017,Nusantara Motor Surabaya - Darmo,Main Dealer,Surabaya,Jawa Timur,Jawa,"Jl. Darmo No. 55, Surabaya",0557843705,Fikri Pane,2015-03-23,,1,20,709
+D018,Nusantara Motor Surabaya - Rungkut,Authorized Dealer,Surabaya,Jawa Timur,Jawa,"Jl. Rungkut No. 53, Surabaya",0668272143,Maya Tan,2009-06-27,,1,17,763
+D019,Nusantara Motor Malang - Soekarno Hatta,Authorized Dealer,Malang,Jawa Timur,Jawa,"Jl. Soekarno Hatta No. 92, Malang",0608173590,Agus Firmansyah,2009-01-11,,1,10,438
+D020,Nusantara Motor Denpasar - Sunset Road,Main Dealer,Denpasar,Bali,Bali & Nusa Tenggara,"Jl. Sunset Road No. 95, Denpasar",0418014190,Eko Prakoso,2015-04-09,,1,12,511
+D021,Nusantara Motor Medan - Gatot Subroto,Main Dealer,Medan,Sumatera Utara,Sumatera,"Jl. Gatot Subroto No. 26, Medan",0397042642,Anisa Dharma,2020-10-11,,1,17,713
+D022,Nusantara Motor Medan - Katamso,Satellite Showroom,Medan,Sumatera Utara,Sumatera,"Jl. Katamso No. 98, Medan",0249278353,Vina Santoso,2011-01-15,,1,10,579
+D023,Nusantara Motor Palembang - Sudirman,Authorized Dealer,Palembang,Sumatera Selatan,Sumatera,"Jl. Sudirman No. 79, Palembang",0297785160,Sari Prakoso,2013-08-24,,1,11,545
+D024,Nusantara Motor Pekanbaru - Arifin Achmad,Authorized Dealer,Pekanbaru,Riau,Sumatera,"Jl. Arifin Achmad No. 49, Pekanbaru",0487089793,Ahmad Ramadhan,2016-08-20,2024-11-30,0,11,380
+D025,Nusantara Motor Batam - Nagoya,Satellite Showroom,Batam,Kepulauan Riau,Sumatera,"Jl. Nagoya No. 40, Batam",0225530712,Christian Pane,2025-03-15,,1,6,442
+D026,Nusantara Motor Bandar Lampung - Teuku Umar,Authorized Dealer,Bandar Lampung,Lampung,Sumatera,"Jl. Teuku Umar No. 55, Bandar Lampung",0695806358,Nabila Effendi,2017-01-21,,1,11,425
+D027,Nusantara Motor Padang - Khatib Sulaiman,Satellite Showroom,Padang,Sumatera Barat,Sumatera,"Jl. Khatib Sulaiman No. 19, Padang",0548481601,Clarissa Widodo,2025-08-10,,1,6,336
+D028,Nusantara Motor Makassar - Urip Sumoharjo,Main Dealer,Makassar,Sulawesi Selatan,Sulawesi,"Jl. Urip Sumoharjo No. 29, Makassar",0418418502,Anita Basri Tanjung,2012-12-14,,1,14,601
+D029,Nusantara Motor Manado - Sam Ratulangi,Satellite Showroom,Manado,Sulawesi Utara,Sulawesi,"Jl. Sam Ratulangi No. 115, Manado",0266712953,Putri Hartono,2026-02-01,,1,5,309
+D030,Nusantara Motor Balikpapan - MT Haryono,Authorized Dealer,Balikpapan,Kalimantan Timur,Kalimantan,"Jl. MT Haryono No. 109, Balikpapan",0548498534,Rani Kurniawan,2012-10-05,,1,9,366
+D031,Nusantara Motor Banjarmasin - A. Yani,Authorized Dealer,Banjarmasin,Kalimantan Selatan,Kalimantan,"Jl. A. Yani No. 32, Banjarmasin",0736305699,Putri Hutapea,2020-08-07,,1,9,472
+D032,Nusantara Motor Pontianak - Ahmad Yani,Authorized Dealer,Pontianak,Kalimantan Barat,Kalimantan,"Jl. Ahmad Yani No. 33, Pontianak",0265481954,Sari Sitompul,2017-07-31,,1,7,475

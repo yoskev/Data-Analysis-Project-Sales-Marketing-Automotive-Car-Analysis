@@ -1,0 +1,63 @@
+vehicle_id,brand,model,variant,body_type,fuel_type,transmission,engine_cc,seating_capacity,assembly_origin,model_year,list_price_idr,cost_idr,launch_date,discontinued_date,is_active
+V001,Toyota,Agya,1.2 G MT,Hatchback,Petrol,Manual,1198,5,Local Assembly,2023,170000000,148600000,2021-01-01,,1
+V002,Toyota,Agya,1.2 GR Sport CVT,Hatchback,Petrol,CVT,1198,5,Local Assembly,2024,205000000,180700000,2023-03-01,,1
+V003,Toyota,Avanza,1.3 E MT,MPV,Petrol,Manual,1329,7,Local Assembly,2023,240000000,216100000,2021-11-01,,1
+V004,Toyota,Avanza,1.5 G CVT,MPV,Petrol,CVT,1496,7,Local Assembly,2023,280000000,244300000,2021-11-01,,1
+V005,Toyota,Veloz,1.5 Q CVT,MPV,Petrol,CVT,1496,7,Local Assembly,2024,295000000,271400000,2021-11-01,,1
+V006,Toyota,Calya,1.2 G MT,MPV,Petrol,Manual,1198,7,Local Assembly,2022,155000000,141500000,2021-01-01,2024-06-30,0
+V007,Toyota,Raize,1.0 Turbo GR Sport CVT,SUV,Petrol,CVT,998,5,Local Assembly,2024,265000000,241200000,2021-04-01,,1
+V008,Toyota,Rush,1.5 S GR Sport AT,SUV,Petrol,Automatic,1496,7,Local Assembly,2023,335000000,298200000,2021-01-01,,1
+V009,Toyota,Yaris Cross,1.5 Hybrid S CVT,SUV,Hybrid,CVT,1490,5,Local Assembly,2023,430000000,388700000,2023-02-01,,1
+V010,Toyota,Innova Zenix,2.0 G CVT,MPV,Petrol,CVT,1987,7,Local Assembly,2023,440000000,396400000,2022-12-01,,1
+V011,Toyota,Innova Zenix,2.0 V Hybrid CVT,MPV,Hybrid,CVT,1987,7,Local Assembly,2023,560000000,507100000,2022-12-01,,1
+V012,Toyota,Fortuner,2.4 VRZ AT 4x2,SUV,Diesel,Automatic,2393,7,Local Assembly,2024,640000000,554200000,2021-01-01,,1
+V013,Toyota,Camry,2.5 Hybrid V,Sedan,Hybrid,CVT,2487,5,Imported,2024,970000000,862400000,2021-01-01,,1
+V014,Toyota,Alphard,2.5 G CVT,MPV,Petrol,CVT,2494,7,Imported,2023,1600000000,1380700000,2021-01-01,,1
+V015,Honda,Brio,RS CVT,Hatchback,Petrol,CVT,1199,5,Local Assembly,2023,260000000,232600000,2021-01-01,,1
+V016,Honda,Brio,Satya E MT,Hatchback,Petrol,Manual,1199,5,Local Assembly,2023,175000000,154500000,2021-01-01,,1
+V017,Honda,HR-V,1.5 SE CVT,SUV,Petrol,CVT,1498,5,Local Assembly,2023,420000000,365400000,2021-01-01,,1
+V018,Honda,HR-V,1.5 e:HEV RS,SUV,Hybrid,CVT,1498,5,Local Assembly,2023,520000000,451000000,2023-08-01,,1
+V019,Honda,CR-V,1.5 Turbo Prestige CVT,SUV,Petrol,CVT,1498,5,Imported,2023,660000000,594700000,2023-03-01,,1
+V020,Honda,City Hatchback,RS CVT,Hatchback,Petrol,CVT,1497,5,Local Assembly,2023,360000000,313900000,2021-01-01,,1
+V021,Honda,BR-V,Prestige CVT,SUV,Petrol,CVT,1498,7,Local Assembly,2023,340000000,314400000,2022-11-01,,1
+V022,Honda,WR-V,RS CVT,SUV,Petrol,CVT,1498,5,Local Assembly,2023,335000000,301700000,2023-03-01,,1
+V023,Honda,Civic,RS Turbo CVT,Sedan,Petrol,CVT,1498,5,Imported,2022,620000000,548300000,2021-01-01,2023-12-31,0
+V024,Honda,Mobilio,RS CVT,MPV,Petrol,CVT,1497,7,Local Assembly,2022,275000000,247900000,2021-01-01,2023-06-30,0
+V025,Suzuki,Ertiga,Hybrid GX AT,MPV,Hybrid,Automatic,1462,7,Local Assembly,2023,275000000,236900000,2021-01-01,,1
+V026,Suzuki,XL7,Beta Hybrid AT,SUV,Hybrid,Automatic,1462,7,Local Assembly,2023,290000000,268900000,2021-01-01,,1
+V027,Suzuki,Baleno,1.5 AT,Hatchback,Petrol,Automatic,1462,5,Local Assembly,2022,250000000,223400000,2021-01-01,2024-12-31,0
+V028,Suzuki,Ignis,GX AGS,Hatchback,Petrol,AMT,1197,5,Local Assembly,2022,190000000,173800000,2021-01-01,,1
+V029,Suzuki,Jimny,1.5 5-Door AT,SUV,Petrol,Automatic,1462,4,Imported,2024,510000000,441600000,2023-06-01,,1
+V030,Suzuki,Carry,Pick Up 1.5 MT,Pickup,Petrol,Manual,1462,2,Local Assembly,2023,150000000,134100000,2021-01-01,,1
+V031,Daihatsu,Sigra,1.2 R MT,MPV,Petrol,Manual,1197,7,Local Assembly,2023,155000000,138600000,2021-01-01,,1
+V032,Daihatsu,Xenia,1.5 R CVT,MPV,Petrol,CVT,1496,7,Local Assembly,2023,260000000,240700000,2021-11-01,,1
+V033,Daihatsu,Ayla,1.2 R MT,Hatchback,Petrol,Manual,1198,5,Local Assembly,2023,155000000,139500000,2021-01-01,,1
+V034,Daihatsu,Terios,1.5 R CVT,SUV,Petrol,CVT,1496,7,Local Assembly,2023,305000000,272400000,2021-01-01,,1
+V035,Daihatsu,Rocky,1.0 Turbo R ADS CVT,SUV,Petrol,CVT,998,5,Local Assembly,2023,250000000,219700000,2021-04-01,,1
+V036,Daihatsu,Gran Max,Blind Van 1.5 MT,Van,Petrol,Manual,1496,2,Local Assembly,2023,190000000,167800000,2021-01-01,,1
+V037,Mitsubishi,Xpander,Ultimate CVT,MPV,Petrol,CVT,1499,7,Local Assembly,2024,335000000,300300000,2021-01-01,,1
+V038,Mitsubishi,Xpander Cross,Premium CVT,SUV,Petrol,CVT,1499,7,Local Assembly,2024,350000000,311800000,2021-01-01,,1
+V039,Mitsubishi,Xforce,Ultimate CVT,SUV,Petrol,CVT,1499,5,Local Assembly,2024,410000000,353200000,2023-08-01,,1
+V040,Mitsubishi,Pajero Sport,Dakar 4x2 AT,SUV,Diesel,Automatic,2442,7,Local Assembly,2024,640000000,587400000,2021-01-01,,1
+V041,Mitsubishi,L300,Pick Up Diesel MT,Pickup,Diesel,Manual,2268,2,Local Assembly,2023,250000000,230700000,2021-01-01,,1
+V042,Mitsubishi,Triton,GLS 4x4 AT,Pickup,Diesel,Automatic,2442,5,Imported,2024,470000000,408800000,2023-12-01,,1
+V043,Hyundai,Creta,Prime CVT,SUV,Petrol,CVT,1497,5,Local Assembly,2023,385000000,346000000,2022-01-01,,1
+V044,Hyundai,Stargazer,X Prime CVT,MPV,Petrol,CVT,1497,7,Local Assembly,2023,330000000,286300000,2022-07-01,,1
+V045,Hyundai,Ioniq 5,Signature Long Range,SUV,Electric,Automatic,,5,Local Assembly,2023,790000000,716600000,2022-03-01,,1
+V046,Hyundai,Ioniq 6,Signature,Sedan,Electric,Automatic,,5,Imported,2024,1000000000,879700000,2024-08-01,,1
+V047,Hyundai,Kona Electric,Signature,SUV,Electric,Automatic,,5,Imported,2022,670000000,607100000,2021-06-01,2024-03-31,0
+V048,Wuling,Air EV,Long Range,Hatchback,Electric,Automatic,,4,Local Assembly,2023,240000000,218600000,2022-08-01,,1
+V049,Wuling,Binguo EV,333 km Premium,Hatchback,Electric,Automatic,,4,Local Assembly,2024,300000000,274100000,2024-06-01,,1
+V050,Wuling,Almaz,RS Pro 1.5T CVT,SUV,Petrol,CVT,1451,7,Local Assembly,2023,390000000,338300000,2021-01-01,,1
+V051,Wuling,Cloud EV,Long Range,MPV,Electric,Automatic,,5,Local Assembly,2024,400000000,369600000,2024-03-01,,1
+V052,BYD,Atto 3,Advanced,SUV,Electric,Automatic,,5,Imported,2023,515000000,451200000,2024-01-01,,1
+V053,BYD,Dolphin,Premium,Hatchback,Electric,Automatic,,5,Imported,2024,430000000,370900000,2024-02-01,,1
+V054,BYD,Seal,Performance AWD,Sedan,Electric,Automatic,,5,Imported,2024,800000000,719100000,2024-02-01,,1
+V055,BYD,M6,Superior 7-Seater,MPV,Electric,Automatic,,7,Imported,2025,440000000,389800000,2025-03-01,,1
+V056,Isuzu,D-Max,1.9 Ddi Hi-Lander 4x2 AT,Pickup,Diesel,Automatic,1898,5,Local Assembly,2023,415000000,381000000,2021-01-01,,1
+V057,Nissan,Kicks e-Power,VL,SUV,Hybrid,Automatic,1199,5,Imported,2023,480000000,440000000,2023-04-01,,1
+V058,Kia,Carens,Premium 1.5 CVT,MPV,Petrol,CVT,1497,7,Local Assembly,2023,320000000,282300000,2022-11-01,,1
+V059,Mazda,CX-5,Elite 2.5 AT,SUV,Petrol,Automatic,2488,5,Imported,2022,580000000,537500000,2021-01-01,2025-06-30,0
+V060,Chery,Omoda 5,RZ 1.5 Turbo CVT,SUV,Petrol,CVT,1499,5,Imported,2024,400000000,352100000,2024-06-01,,1
+V061,Honda,Brio,e:N1 Electric,Hatchback,Electric,Automatic,,5,Local Assembly,2027,380000000,340500000,2026-11-01,,1
+V062,BYD,Sealion 7,Premium,SUV,Electric,Automatic,,5,Imported,2027,720000000,632100000,2026-11-15,,1
