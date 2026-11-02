@@ -1,6 +1,5 @@
 # Nusantara Car Motor: Sales, Marketing & Dealer Network Analysis (2021–2026)
 
-![Status](https://img.shields.io/badge/Status-Completed-success)
 ![SQL](https://img.shields.io/badge/SQL-Google%20BigQuery-blue)
 ![BI](https://img.shields.io/badge/Power%20BI-Interactive%20Dashboards-yellow)
 ![Domain](https://img.shields.io/badge/Domain-Automotive%20CRM%20%26%20Sales-orange)
