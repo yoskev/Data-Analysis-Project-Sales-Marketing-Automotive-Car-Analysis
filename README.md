@@ -35,9 +35,13 @@ The analysis follows an industry-standard modern data stack, moving from raw dat
 
 * **1. Rebalance customer Acquisition to Fleet B2B Accounts, instead just focus on Retail:**  Sales management team must maintain and expand high value B2B Fleet and Corporate relationship by assign dedicated account management team then introduce plenty program like loyalty program, special event promotion to engage sales transaction from these segments.
   
-* **2. Implement a Risk Discount Management Plan:** Create risk discount management plan to mitigate decreasing of net profit margin. Company can implement discount management system, whom need approval by sales marketing Top Management. Then keep monitor discount and margin per segment every month. With discounts climb higher, net margins collapse—with several transactions dipping below cost. Without strict controls, frontline sales reps give away too much margin just to close individual deals and hit short-term unit targets.
+* **2. Implement a Risk Discount Management Plan:** Create risk discount management plan to mitigate decreasing of net profit margin. Company can implement discount management system, whom need approval by sales marketing Top Management. Then keep monitor discount and margin per segment every month.
 
-* **3. Reallocate Inventory for High Demand Brand – Model Vehicles to High Demand Regions and City:**  Sales Marketing teams should sell high demand vehicles that usually eager to buy from customers. Also build new dealers at city that untapped like 8 high-demand cities for physical market expansion. These list of cities: Cirebon, Samarinda, Serang and Jambi; Sukabumi, Kendari, Kupang and Mataram could be real potential to gain revenue growth. Also, Management must reallocate stock to high-efficiency and top car specification mixes, penalize chronically underperforming dealers after fixing proper monthly target units, and establish new dealers in proven unserved city markets.
+With discounts climb higher, net margins collapse—with several transactions dipping below cost. Without strict controls, frontline sales reps give away too much margin just to close individual deals and hit short-term unit targets.
+
+* **3. Reallocate Inventory for High Demand Brand – Model Vehicles to High Demand Regions and City:**  Sales Marketing teams should sell high demand vehicles that usually eager to buy from customers. Also build new dealers at city that untapped like 8 high-demand cities for physical market expansion. These list of cities: Cirebon, Samarinda, Serang and Jambi; Sukabumi, Kendari, Kupang and Mataram could be real potential to gain revenue growth.
+
+Also, Management must reallocate stock to high-efficiency and top car specification mixes, penalize chronically underperforming dealers after fixing proper monthly target units, and establish new dealers in proven unserved city markets.
 
 
 ---
