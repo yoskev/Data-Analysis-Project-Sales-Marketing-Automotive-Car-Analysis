@@ -18,7 +18,7 @@ Nusantara Car Motor operates a multi-brand automotive network spanning 13 brands
 
 ## 🏗️ Project Architecture & Data Pipeline
 
-The analysis follows an industry-standard modern data stack, moving from raw data ingestion to data cleansing in cloud warehousing and final visualization in Business Intelligence tools.
+The analysis follows an industry-standard data stack, moving from raw data extraction to data cleansing in cloud warehousing and final visualization in Business Intelligence tools.
 
 ---
 
