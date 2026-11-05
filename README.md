@@ -22,7 +22,7 @@ The analysis follows an industry-standard modern data stack, moving from raw dat
 
 ---
 
-## Data Model for this project
+## Data Model
 The underlying data model utilizes a star schema model to structure and integrate all datasets across the project.
 
 ![Data Model.pdf](https://github.com/yoskev/Data-Analysis-Project-Sales-Marketing-Automotive-Car-Analysis/blob/main/Data%20Exploration%20Phase/Data%20Model.png)
