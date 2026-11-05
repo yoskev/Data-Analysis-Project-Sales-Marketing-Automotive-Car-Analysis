@@ -1,4 +1,4 @@
-# Nusantara Car Motor: Sales, Marketing & Dealer Network Analysis (2021–2026)
+# Nusantara Car Motor: Sales, Marketing Analysis (2021–2026)
 
 ![SQL](https://img.shields.io/badge/SQL-Google%20BigQuery-blue)
 ![BI](https://img.shields.io/badge/Power%20BI-Interactive%20Dashboards-yellow)
@@ -33,10 +33,12 @@ The analysis follows an industry-standard modern data stack, moving from raw dat
 
 ## 💡 Strategic Recommendations & Action Plan
 
-* **1. Shift Capital to High-Yield B2B Fleets:** Reallocate 30% of standard retail marketing acquisition budgets into a dedicated Key Account Management framework targeting corporate fleet contracts.
-* **2. Implement a Risk Discount Management Plan:** Establish an ERP-enforced tiered approval matrix (Branch Manager $\rightarrow$ Regional Director $\rightarrow$ C-Suite sign-off) and enforce a minimum 8% net profit floor to stop margin leakage.
-* **3. Operationalize Regional White-Spaces:** Deploy low-cost satellite showrooms and pop-up fulfillment points in verified high-demand cities to capture local market share without incurring heavy capital expenditure.
-* **4. Enforce Unit-Volume & Margin KPIs:** Discontinue branch evaluations based solely on nominal revenue. Tie management incentives to monthly unit sales volume and net profit realization.
+* **1. Rebalance customer Acquisition to Fleet B2B Accounts, instead just focus on Retail:**  Sales management team must maintain and expand high value B2B Fleet and Corporate relationship by assign dedicated account management team then introduce plenty program like loyalty program, special event promotion to engage sales transaction from these segments.
+  
+* **2. Implement a Risk Discount Management Plan:** Create risk discount management plan to mitigate decreasing of net profit margin. Company can implement discount management system, whom need approval by sales marketing Top Management. Then keep monitor discount and margin per segment every month. With discounts climb higher, net margins collapse—with several transactions dipping below cost. Without strict controls, frontline sales reps give away too much margin just to close individual deals and hit short-term unit targets.
+
+* **3. Reallocate Inventory for High Demand Brand – Model Vehicles to High Demand Regions and City:**  Sales Marketing teams should sell high demand vehicles that usually eager to buy from customers. Also build new dealers at city that untapped like 8 high-demand cities for physical market expansion. These list of cities: Cirebon, Samarinda, Serang and Jambi; Sukabumi, Kendari, Kupang and Mataram could be real potential to gain revenue growth. Also, Management must reallocate stock to high-efficiency and top car specification mixes, penalize chronically underperforming dealers after fixing proper monthly target units, and establish new dealers in proven unserved city markets.
+
 
 ---
 
