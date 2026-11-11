@@ -142,10 +142,20 @@ ELSE customer_id END AS master_customer_id
    **Recommendation :**
     The variation of root cause still need to figure out deep detail, but from this state, company need to gather information about customer behaviour especially for every customer that want to return or cancel sales transaction. For          example, every return or cancellation, sales teams or customer service need to ask information from customer and figure out why customer want to cancel or do return and if we give another option, will customer change their mind? The       other side, company need to track quality control and delivery tracking. Is there any bottleneck from backend, for instance from product and operational system.
    
-3. **Retail vs. Fleet Dynamics:** While Retail drives high nominal transaction counts, the B2B **Fleet segment** demonstrates an exceptional **84.7% repeat purchase rate**, generating nearly 33% of company revenue with low acquisition overhead.
-4. **Discount Elasticity & Margin Erosion:** Transactions with high discount percentages (>7%) experience critical net profit margin compression, with several deals falling below operational cost thresholds.
-5. **Geographical City Demand:** Unserved regional cities (such as Cirebon, Samarinda, Serang, and Jambi) account for over **Rp 326 Billion** in organic demand captured remotely through existing dealer channels, justifying physical satellite expansion.
+3. **Customer Segment contribution to Sales transactions and Company Revenue:** While Retail generates the majority of our transactions and overall revenue, a correlation analysis reveals a striking contrast in the Fleet segment. Although Fleet accounts for fewer than 1,000 transactions, it drives nearly 33% of the company's total revenue. Consequently, the Fleet segment is our most efficient revenue driver, achieving high returns on a low transaction volume.
 
+   **Recommendation :**
+    Implement differentiated management strategies across segments. Protect and service the high-value Fleet and Corporate accounts with dedicated key-account managers, while developing a structured retail acquisition and retention            program to revive stalling retail growth.
+   
+4. **Discount vs Margin:** Average net profit margin fall, while discount grows. For example, when average net profit margin decrease to 13%, discount rise up from 0 to 2%. By segment, Fleet averages a 6.5% discount for a 7.7% margin, Corporate 4.0% for 10.1% and Retail 1.5% for 12.1%.
+
+    **Recommendation :**
+    Create risk discount management plan to mitigate decreasing of net profit margin. Company can implement discount management system, whom need approval by sales marketing manager on dealer side, region manager, then specifically Chief      Marketing and Sales approval for high percentage discount with tiny net profit margin. Then keep monitor discount and margin per segment every month.
+   
+5. **Geographical City Demand:** Eight customer cities have no dealer but still produced 669 completed sales and IDR 326 bn (5.8% of revenue). Here are those cities: Cirebon, Samarinda, Serang and Jambi; Sukabumi, Kendari, Kupang and Mataram. These customers already buy through a default dealer, for example Kupang and Mataram in Denpasar, Kendari in Makassar, Samarinda in Balikpapan and Jambi in Medan. Demand per city is modest (IDR 4 bn to 15 bn in 2025) against IDR 16 bn to 18 bn for the smallest long-established dealers.
+
+    **Recommendation :**
+    Prioritize these 8 high-demand cities for physical expansion. Before investing in full brickand-mortar showrooms, deploy low-cost satellite sales booths or pop-up displays supported by regional logistics hubs to capture local market       share.
 ---
 
 ## 💡 Strategic Recommendations & Action Plan
