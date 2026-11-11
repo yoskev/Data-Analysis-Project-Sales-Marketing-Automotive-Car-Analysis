@@ -135,7 +135,7 @@ ELSE customer_id END AS master_customer_id
 1. **Yearly Revenue and Growth:** Cumulative completed revenue from 2021 through September 2026 reached Rp 5.61 trillion. Following a post-pandemic market rebound in 2022 (+64.98% YoY), yearly revenue growth decelerated significantly, dropping to +33.6% in 2023, continue to +22.41% in 2024, and slowing down to +4.41% in 2025.
 
 Recommendation :
-   Because YoY growth has slowed down without interruption since 2022, management must treat this as a structural maturity phase rather than a temporary market dip. Company need Treat the slowdown as the main business issue and set 2026 and 2027 growth targets per segment instead of one company-wide figure. Track revenue growth together with transaction count every quarter, so a price-driven increase is not mistaken for volume growth.
+    Because YoY growth has slowed down without interruption since 2022, management must treat this as a structural maturity phase rather than a temporary market dip. Company need Treat the slowdown as the main business issue and set 2026      and 2027 growth targets per segment instead of one company-wide figure. Track revenue growth together with transaction count every quarter, so a price-driven increase is not mistaken for volume growth.
    
 2. **Revenue Leakage:** 
 3. **Retail vs. Fleet Dynamics:** While Retail drives high nominal transaction counts, the B2B **Fleet segment** demonstrates an exceptional **84.7% repeat purchase rate**, generating nearly 33% of company revenue with low acquisition overhead.
