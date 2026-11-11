@@ -137,7 +137,11 @@ ELSE customer_id END AS master_customer_id
     **Recommendation :**
     Because YoY growth has slowed down without interruption since 2022, management must treat this as a structural maturity phase rather than a temporary market dip. Company need Treat the slowdown as the main business issue and set 2026      and 2027 growth targets per segment instead of one company-wide figure. Track revenue growth together with transaction count every quarter, so a price-driven increase is not mistaken for volume growth.
    
-2. **Revenue Leakage:** 
+2. **Revenue Leakage(Cancelled or Returned Transactions):** From analysis we find that status transaction from 2021 – 2026 only take ±10% from all revenue. Rates are increase (cancel 5.6% to 6.7%, return 2.4% to 2.8% per year). From the trend line, across 2021 – 2026, transactional leakage remained consistent. Cancelation stable at 5 – 7% and return stable in 2 – 3%. For this findings we assume that the effort from company team to decrease this trend still not workable.  Marketing & Sales department need to implement aggressive and direct approach to decrease this trend.
+
+   **Recommendation :**
+    The variation of root cause still need to figure out deep detail, but from this state, company need to gather information about customer behaviour especially for every customer that want to return or cancel sales transaction. For          example, every return or cancellation, sales teams or customer service need to ask information from customer and figure out why customer want to cancel or do return and if we give another option, will customer change their mind? The       other side, company need to track quality control and delivery tracking. Is there any bottleneck from backend, for instance from product and operational system.
+   
 3. **Retail vs. Fleet Dynamics:** While Retail drives high nominal transaction counts, the B2B **Fleet segment** demonstrates an exceptional **84.7% repeat purchase rate**, generating nearly 33% of company revenue with low acquisition overhead.
 4. **Discount Elasticity & Margin Erosion:** Transactions with high discount percentages (>7%) experience critical net profit margin compression, with several deals falling below operational cost thresholds.
 5. **Geographical City Demand:** Unserved regional cities (such as Cirebon, Samarinda, Serang, and Jambi) account for over **Rp 326 Billion** in organic demand captured remotely through existing dealer channels, justifying physical satellite expansion.
