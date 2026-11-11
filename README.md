@@ -87,7 +87,7 @@ flowchart LR
 | clean_customers | customers | 10,690 → 10,690 (10,606 unique customers) |
 | clean_dealers | dealers | 32 → 32 |
 | clean_vehicles | vehicles | 62 → 62 |
-| clean_transactions | transactions | 11,939 → 11,939 (one added column, `csat_category`) |
+| clean_transactions | transactions | 11,939 → 11,939 (one added column, csat_category) |
 
 **Cleaning rules**
 
