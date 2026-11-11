@@ -37,37 +37,37 @@ Before any analysis, every table was inspected and then cleaned in BigQuery, so 
 
 | Table | Rows | Contents |
 |---|---|---|
-| `customers` | 10,690 | 9,742 Retail, 724 Corporate, 224 Fleet |
-| `dealers` | 32 | 10 Main Dealers, 17 Authorized Dealers, 5 Satellite Showrooms |
-| `vehicles` | 62 | 13 brands, 56 models |
-| `transactions` | 11,939 | 1 Jan 2021 to 27 Sep 2026 (Completed 10,655, Cancelled 760, Returned 315, Pending 209) |
+| customers | 10,690 | 9,742 Retail, 724 Corporate, 224 Fleet |
+| dealers | 32 | 10 Main Dealers, 17 Authorized Dealers, 5 Satellite Showrooms |
+| vehicles | 62 | 13 brands, 56 models |
+| transactions | 11,939 | 1 Jan 2021 to 27 Sep 2026 (Completed 10,655, Cancelled 760, Returned 315, Pending 209) |
 
 **Five checks were run on the data**
 
 1. **Duplicates:** Retail customers grouped by cleaned name and standardised phone number.
-2. **NULL values:** one `COUNTIF(column IS NULL)` per column, applied to all four tables.
-3. **Non-standard values:** each raw value compared with `TRIM(INITCAP(value))`.
-4. **Outliers:** interquartile range (IQR) on `total_amount_idr`.
+2. **NULL values:** one COUNTIF(column IS NULL) per column, applied to all four tables.
+3. **Non-standard values:** each raw value compared with TRIM(INITCAP(value)).
+4. **Outliers:** interquartile range (IQR) on total_amount_idr.
 5. **Validation:** date order, amount formula and business-logic rules.
 
 **What the exploration found**
 
 | Area | Finding | Decision |
 |---|---|---|
-| Duplicate customers | 84 Retail customers registered twice (same name, phone and birth date) | Soft merge with `master_customer_id`: 10,606 unique customers |
+| Duplicate customers | 84 Retail customers registered twice (same name, phone and birth date) | Soft merge with master_customer_id: 10,606 unique customers |
 | Phone numbers | Loaded as INT64, so the leading 0 was lost (10,388 start with 8, 24 with 62, 278 NULL) | Standardise to country-code format (62...) |
-| City names | 149 spellings for 36 cities (330 rows) | `INITCAP(TRIM())` |
+| City names | 149 spellings for 36 cities (330 rows) | INITCAP(TRIM()) |
 | NULLs that carry meaning | 948 gender and birth dates (Corporate and Fleet), 3,868 financing fields (Cash deals), 969 delivery dates (Cancelled and Pending) | Kept as NULL, because there is nothing to fill |
 | NULLs that are missing data | Email 423, salesperson 164, lead source 331 | Email stays NULL; the other two become "Unknown" |
-| Survey score | `csat_score` is NULL in 5,890 rows (969 not applicable, 4,921 no response) | Kept as NULL; `csat_category` added |
-| Outliers | 1,363 upper outliers in `total_amount_idr` (11.4%), including 97.5% of Fleet deals | Valid bulk purchases of up to 15 units, kept |
+| Survey score | csat_score is NULL in 5,890 rows (969 not applicable, 4,921 no response) | Kept as NULL; csat_category added |
+| Outliers | 1,363 upper outliers in total_amount_idr (11.4%), including 97.5% of Fleet deals | Valid bulk purchases of up to 15 units, kept |
 | Unit price vs list price | Above list price in 85.8% of rows (annual price increase, at most 1.076x); 4 sales below vehicle cost | Not errors; kept and flagged for the analysis |
 
 **Validation results (zero violations)**
 
 - ✅ Delivery never comes before the transaction (3 to 60 days after, median 31).
 - ✅ No sale before a vehicle's launch or after its discontinuation, before a dealer opened or after it closed, or before the customer registered.
-- ✅ `total_amount_idr = quantity x (unit_price_idr - discount_idr)` holds for all 11,939 rows, so the discount is per unit.
+- ✅ total_amount_idr = quantity x (unit_price_idr - discount_idr) holds for all 11,939 rows, so the discount is per unit.
 - ✅ No orphan keys between transactions and customers, vehicles or dealers.
 
 ### 🧹 Data Cleaning
@@ -84,23 +84,23 @@ flowchart LR
 
 | View | Source | Rows in → out |
 |---|---|---|
-| `clean_customers` | `customers` | 10,690 → 10,690 (10,606 unique customers) |
-| `clean_dealers` | `dealers` | 32 → 32 |
-| `clean_vehicles` | `vehicles` | 62 → 62 |
-| `clean_transactions` | `transactions` | 11,939 → 11,939 (one added column, `csat_category`) |
+| clean_customers | customers | 10,690 → 10,690 (10,606 unique customers) |
+| clean_dealers | dealers | 32 → 32 |
+| clean_vehicles | vehicles | 62 → 62 |
+| clean_transactions | transactions | 11,939 → 11,939 (one added column, `csat_category`) |
 
 **Cleaning rules**
 
-- **Text:** names use `INITCAP(TRIM())` for Retail and `TRIM()` only for companies, so "PT" and "CV" are not damaged. Email uses `LOWER(TRIM())` and city uses `INITCAP(TRIM())`.
-- **Phone:** numbers starting with 8 get the prefix 62, and all 32 dealer numbers get 62. Every non-NULL customer number now matches `^628[0-9]{9,10}$`.
+- **Text:** names use INITCAP(TRIM()) for Retail and TRIM() only for companies, so "PT" and "CV" are not damaged. Email uses LOWER(TRIM()) and city uses INITCAP(TRIM()).
+- **Phone:** numbers starting with 8 get the prefix 62, and all 32 dealer numbers get 62. Every non-NULL customer number now matches ^628[0-9]{9,10}$.
 - **Flags:** 1/0 become Yes/No (trade-in, insurance, marketing opt-in) and Active/Inactive (dealers, vehicles).
-- **NULL labels:** `COALESCE` turns missing salesperson and lead source into "Unknown" and Cash deals' financing partner into "Not Used". Down payment and tenor stay NULL, because 0 would distort averages.
-- **Survey score:** `csat_score` stays NULL (never 0). `csat_category` groups it into satisfied, neutral, dissatisfied, N/A (never delivered) and No Response.
+- **NULL labels:** COALESCE turns missing salesperson and lead source into "Unknown" and Cash deals financing partner into "Not Used". Down payment and tenor stay NULL, because 0 would distort averages.
+- **Survey score:** csat_score stays NULL (never 0). csat_category groups it into satisfied, neutral, dissatisfied, N/A (never delivered) and No Response.
 
-**Key decision: soft merge instead of delete.** Duplicate customers keep every raw row and their original `customer_id`, and receive a `master_customer_id`:
+**Key decision: soft merge instead of delete.** Duplicate customers keep every raw row and their original customer_id, and receive a master_customer_id:
 
 ```sql
-CASE WHEN customer_segment = 'Retail' AND phone IS NOT NULL THEN
+CASE WHEN customer_segment = Retail AND phone IS NOT NULL THEN
   FIRST_VALUE(customer_id) OVER (
     PARTITION BY full_name, phone
     ORDER BY (email IS NOT NULL) DESC, registration_date, customer_id)
@@ -109,17 +109,17 @@ ELSE customer_id END AS master_customer_id
 
 - A phone number identifies a person far better than a name, so the key is cleaned name plus cleaned phone.
 - The master record is the one with an email, then the earliest registration, then the lowest ID.
-- `phone IS NOT NULL` stops unrelated customers from being merged just because they share a name and have no phone.
+- phone IS NOT NULL stops unrelated customers from being merged just because they share a name and have no phone.
 - Corporate and Fleet are never merged: 176 of the 184 repeated company names have different phones.
-- Result: 84 duplicate groups and 10,606 unique customers. 56 transactions reference a non-master ID, so customer-level metrics always group by `master_customer_id`.
+- Result: 84 duplicate groups and 10,606 unique customers. 56 transactions reference a non-master ID, so customer-level metrics always group by master_customer_id.
 - Deleting or re-pointing IDs would break the link to transactions and hide that a customer re-registered.
 
-**Revenue definition.** Revenue counts only `Completed` transactions: Rp 5.61 trillion of the Rp 6.30 trillion booked. Pending deals are booked sales, not revenue, and Cancelled and Returned are excluded. Margin analysis joins `clean_vehicles` on `vehicle_id` to obtain `cost_idr`.
+**Revenue definition.** Revenue counts only Completed transactions: Rp 5.61 trillion of the Rp 6.30 trillion booked. Pending deals are booked sales, not revenue, and Cancelled and Returned are excluded. Margin analysis joins clean_vehicles on vehicle_id to obtain cost_idr.
 
 **Validation results (all passed)**
 
 - ✅ Row counts match the raw tables (10,690 / 32 / 62 / 11,939).
-- ✅ Total `total_amount_idr` is identical before and after cleaning (Rp 6,299,981,200,000), and Completed revenue is unchanged (Rp 5,611,376,200,000).
+- ✅ Total total_amount_idr is identical before and after cleaning (Rp 6,299,981,200,000), and Completed revenue is unchanged (Rp 5,611,376,200,000).
 - ✅ 84 duplicate groups and 10,606 unique customers; no Corporate or Fleet record merged.
 - ✅ Phone formats valid, NULL fills match expectations (164 / 331 / 3,868), no orphan keys.
 - ✅ Joining transactions to customers keeps exactly 11,939 rows (no fan-out).
